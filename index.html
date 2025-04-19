@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+  <h1 class="bg-[#081b31] text-[#fff] h-[5rem] leading-[5rem] text-4xl">Rock Paper Scissors</h1>
+  <div class="flex items-center justify-center flex-col bg-cyan-700 min-h-[88vh]">
+    <div class="choices flex items-center justify-center gap-[3rem] mt-[5rem] flex-wrap">
+      <div class="choice h-[165px] w-[165px] rounded-[50%] flex items-center justify-center hover:cursor-pointer hover:bg-[#081b31]" id="rock">
+        <img src="./images/rock.png" class="h-[150px] w-[150px] object-cover rounded-[50%]">
+      </div>
+      <div class="choice h-[165px] w-[165px] rounded-[50%] flex items-center justify-center hover:cursor-pointer hover:bg-[#081b31]" id="paper">
+        <img src="./images/paper.png" class="h-[150px] w-[150px] object-cover rounded-[50%]">
+      </div>
+      <div class="choice h-[165px] w-[165px] rounded-[50%] flex items-center justify-center hover:cursor-pointer hover:bg-[#081b31]" id="scissors">
+        <img src="./images/scissors.png " class="h-[150px] w-[150px] object-cover rounded-[50%]">
+      </div>
+    </div>
+  
+    <div class="score-board flex items-center justify-center text-[2rem] mt-[3rem] gap-[5rem] text-white">
+      <div class="score">
+        <p id="user-score" class="text-[4rem]">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp-score" class="text-[4rem]">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+  
+    <div class="msg-container  w-[300px] bg-[#081b31] rounded-[1rem] flex items-center justify-center">
+      <p id="msg" class="text-[#fff] text-[2rem] inline p-[1rem] rounded-[1rem]">Play Your Move</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
