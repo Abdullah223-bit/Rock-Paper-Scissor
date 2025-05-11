@@ -38,3 +38,6 @@ Paper beats Rock
 
 Same choice? It's a Tie!
 
+
+![image](https://github.com/user-attachments/assets/ab20778a-6b4c-4c37-a86c-cf19b227e811)
+
